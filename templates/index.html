@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Movie Recommendation System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+      .backImg {
+        background-image: url("../static/project image.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100% 90vh;
+        color: aliceblue
+      }
+      .backGrade-lf {
+        background: rgba(0,0,0,.4);
+        background-image: linear-gradient(90deg,rgba(0,0,0,.5) 0,transparent 80%,rgba(0,0,0,.5));
+        position: absolute;
+        top: 0;
+        left : 0;
+        right : 0;
+        bottom: 0;
+        z-index: -1;
+      }
+      .backGrade-tb {
+        background: rgba(0,0,0,.4);
+        background-image: linear-gradient(180deg,rgba(0,0,0,.3) 0,transparent 80%,rgba(0,0,0,.3));
+        position: absolute;
+        top: 0;
+        left : 0;
+        right : 0;
+        bottom: 0;
+        z-index: -1;
+      }
+      .white{
+        color: white;
+      }
+      .red{
+        color: rgb(201, 15, 15);
+      }
+      .logo{
+        width: 45px;
+        height: 45px;
+      }
+      .sub-cont {
+        margin: 0 23em 2em 23em;
+        text-align: justify;
+      }
+    </style>
+  </head>
+  <body class="backImg">
+    <div class="backGrade-tb">
+    </div>
+    <div class="backGrade-lf"></div>
+      <header class="text-gray-600 body-font -my-8">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center white mb-4 md:mb-0">
+            <img src="../static/logo copy.jpg" class="logo" alt="MRS" />
+            <a href="/"><span class="ml-3 white text-xl">MRS</span></a>
+          </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a href ="/" class="mr-5 white hover:text-gray-900">Home</a>
+            <a href ="/about" class="mr-5 white hover:text-gray-900">About</a>
+            <a href ="/contact" class="mr-5 white hover:text-gray-900">Contact Us</a>
+            <a href ="/recommendation" class="mr-5 white hover:text-gray-900">Recommendation</a>
+          </nav>
+        </div>
+      </header>
+      <hr>
+      <section class="text-gray-600 body-font -my-8">
+        <div class="container flex py-24 flex-col items-center">
+          <div class="flex flex-col text-center w-full mb-12"><br>
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 white ">Movie Recommendation System
+            </h1>
+            <p class="leading-relaxed text-white sub-cont">A movie recommendation system, or a movie recommender system, is an ML-based approach to filtering or predicting the users' film preferences based on their past choices and behavior. It's an advanced filteration mechanism that predicts the possible movie choices of the concerned user and their preferences towards a domain-specific item, aka movie.</p>
+            <div class="flex justify-center">
+              <a href="/recommendation"><button class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Recommendation</button></a.href>
+            </div>
+          </div>
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          </div> 
+        </div>
+      </section>
+  </body>
+</html>

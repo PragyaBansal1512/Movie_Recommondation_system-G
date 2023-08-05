@@ -1,0 +1,39 @@
+.backImg {
+    background-image: url("../static/project image.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 90vh;
+    color: aliceblue
+  }
+  .backGrade-lf {
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(90deg,rgba(0,0,0,.5) 0,transparent 80%,rgba(0,0,0,.5));
+    /* background-size: 100% 90vh; */
+    position: absolute;
+    top: 0;
+    left : 0;
+    right : 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .backGrade-tb {
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(180deg,rgba(0,0,0,.3) 0,transparent 80%,rgba(0,0,0,.3));
+    /* background-size: 100% 90vh; */
+    position: absolute;
+    top: 0;
+    left : 0;
+    right : 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .white{
+    color: white;
+  }
+  .red{
+    color: rgb(201, 15, 15);
+  }
+
+.py-24 {
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+}
